@@ -4,5 +4,6 @@ include 'interface'
 include 'service'
 include 'implementation-A'
 include 'implementation-B'
+include 'user-service'
 
 
