@@ -10,3 +10,9 @@ spring:
   jpa:
     hibernate:
       ddl-auto: none #create-drop
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/auth/realms/sbicloudapp
