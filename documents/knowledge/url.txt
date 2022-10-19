@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/28874135/dynamic-spring-data-jpa-repository-query-with-arbitrary-and-clauses/28874506#28874506
