@@ -1,6 +1,12 @@
 package com.sbicloudbd.epms.otherevaluator;
 
-import javax.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+import java.time.LocalDateTime;
+
 
 @Entity
 @Table(name = "other_evaluator")
@@ -19,7 +25,7 @@ public class OtherEvaluator {
     private Long createdBy;
 
     @Column(name = "date_created")
-    private null dateCreated;
+    private LocalDateTime dateCreated;
 
     @Column(name = "domain_status_id")
     private Long domainStatusId;
@@ -46,7 +52,7 @@ public class OtherEvaluator {
     private Long evaluatorType;
 
     @Column(name = "last_updated")
-    private null lastUpdated;
+    private LocalDateTime lastUpdated;
 
     @Column(name = "other_evaluator_status")
     private String otherEvaluatorStatus;
