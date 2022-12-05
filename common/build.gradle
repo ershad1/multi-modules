@@ -2,7 +2,3 @@ plugins {
     id 'multimodule-config'
     id 'spring-conventions'
 }
-
-dependencies {
-    implementation project(":hrms:hrms-core")
-}

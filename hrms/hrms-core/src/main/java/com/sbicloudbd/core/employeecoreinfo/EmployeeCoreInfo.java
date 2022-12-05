@@ -1,4 +1,4 @@
-package com.sbicloudbd.epms.employeecoreinfo;
+package com.sbicloudbd.core.employeecoreinfo;
 
 import jakarta.persistence.*;
 import lombok.Data;

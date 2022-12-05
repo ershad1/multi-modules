@@ -1,6 +1,6 @@
 package com.sbicloudbd.epms.otherevaluator;
 
-import com.sbicloudbd.epms.employeecoreinfo.EmployeeCoreInfo;
+import com.sbicloudbd.core.employeecoreinfo.EmployeeCoreInfo;
 import jakarta.persistence.*;
 import lombok.Data;
 
