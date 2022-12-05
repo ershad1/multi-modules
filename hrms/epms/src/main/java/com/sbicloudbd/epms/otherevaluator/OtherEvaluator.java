@@ -18,7 +18,7 @@ public class OtherEvaluator {
     @Column(name = "assessment_year_id")
     private Long assessmentYearId;
     @ManyToOne
-    @Column(name = "employee_core_info_id")
+    @JoinColumn(name = "employee_core_info_id")
     private EmployeeCoreInfo employeeCoreInfo;
     @Column(name = "evaluator_company")
     private String evaluatorCompany;
