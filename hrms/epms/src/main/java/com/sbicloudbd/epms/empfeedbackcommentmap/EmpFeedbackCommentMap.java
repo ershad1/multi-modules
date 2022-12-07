@@ -19,10 +19,6 @@ public class EmpFeedbackCommentMap {
     private Long hrAssessFeedbackCommentId;
     @Column(name = "hr_assessment_setting_id")
     private Long hrAssessmentSettingId;
-
-    @Column(name = "updated_by")
-    private Long updatedBy;
-
     @Column(name = "employee_info_id")
     private Long employeeInfoId;
 
@@ -31,12 +27,13 @@ public class EmpFeedbackCommentMap {
 
     @Column(name = "created_by")
     private Long createdBy;
-
+    @Column(name = "updated_by")
+    private Long updatedBy;
     @Column(name = "date_created")
     private LocalDateTime dateCreated;
 
-    @Column(name = "domain_status_id")
-    private Long domainStatusId;
     @Column(name = "last_updated")
     private LocalDateTime lastUpdated;
+    @Column(name = "domain_status_id")
+    private Long domainStatusId;
 }

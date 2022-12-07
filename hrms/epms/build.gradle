@@ -4,5 +4,6 @@ plugins {
 }
 
 dependencies {
+    implementation project(":common")
     implementation project(":hrms:hrms-core")
 }
