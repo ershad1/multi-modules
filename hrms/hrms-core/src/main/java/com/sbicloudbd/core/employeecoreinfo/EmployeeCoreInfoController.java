@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/employeeCoreInfo")
+@RequestMapping("/api/hrms-core/employeeCoreInfo")
 @RequiredArgsConstructor
 public class EmployeeCoreInfoController {
 
     private final EmployeeCoreInfoService employeeCoreInfoService;
 
-    @GetMapping("/${supervisorId}/supervisee")
+    @GetMapping("/{supervisorId}/supervisee")
     public ResponseEntity<Page<EmployeeCoreInfo>> getAllTutorials(@PathVariable Long supervisorId, Pageable pageable) {
         Page<EmployeeCoreInfo> supervisee = employeeCoreInfoService.getSupervisee(supervisorId, pageable);
 

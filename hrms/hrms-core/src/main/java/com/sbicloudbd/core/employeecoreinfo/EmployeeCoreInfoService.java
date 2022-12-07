@@ -10,6 +10,6 @@ import org.springframework.stereotype.Service;
 public class EmployeeCoreInfoService {
 private final EmployeeCoreInfoRepository employeeCoreInfoRepository;
     Page<EmployeeCoreInfo> getSupervisee(Long supervisorId, Pageable pageable){
-        return employeeCoreInfoRepository.finadAllsupervisorId(supervisorId, pageable);
+        return employeeCoreInfoRepository.findAllBySupervisorId(supervisorId, pageable);
     }
 }
